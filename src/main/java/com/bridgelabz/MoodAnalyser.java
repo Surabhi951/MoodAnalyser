@@ -15,11 +15,10 @@ public class MoodAnalyser {
             } else {
                 return "HAPPY";
             }
-        } catch (NullPointerException e) {
+        } catch (NullPointerException exception) {
             throw new MoodAnalyserException("Invalid Mood");
         }
     }
-
 }
 
 
